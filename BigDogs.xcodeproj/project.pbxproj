@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC47A1C61C5894EE00509DC8 /* BNRHotDog.m in Sources */ = {isa = PBXBuildFile; fileRef = CC47A1C31C5894EE00509DC8 /* BNRHotDog.m */; };
+		CC47A1C71C5894EE00509DC8 /* BNROrder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC47A1C51C5894EE00509DC8 /* BNROrder.m */; };
+		CC47A1CA1C5897DF00509DC8 /* BNRAddItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC47A1C91C5897DF00509DC8 /* BNRAddItemTableViewController.m */; };
+		CC47A1CD1C5B232900509DC8 /* BNRCondimentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC47A1CC1C5B232900509DC8 /* BNRCondimentTableViewController.m */; };
 		CCC717ED1C55C5F0008060BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC717EC1C55C5F0008060BB /* main.m */; };
 		CCC717F01C55C5F0008060BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC717EF1C55C5F0008060BB /* AppDelegate.m */; };
 		CCC717F31C55C5F0008060BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC717F21C55C5F0008060BB /* ViewController.m */; };
@@ -27,6 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC47A1C21C5894EE00509DC8 /* BNRHotDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHotDog.h; sourceTree = "<group>"; };
+		CC47A1C31C5894EE00509DC8 /* BNRHotDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHotDog.m; sourceTree = "<group>"; };
+		CC47A1C41C5894EE00509DC8 /* BNROrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNROrder.h; sourceTree = "<group>"; };
+		CC47A1C51C5894EE00509DC8 /* BNROrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNROrder.m; sourceTree = "<group>"; };
+		CC47A1C81C5897DF00509DC8 /* BNRAddItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRAddItemTableViewController.h; sourceTree = "<group>"; };
+		CC47A1C91C5897DF00509DC8 /* BNRAddItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRAddItemTableViewController.m; sourceTree = "<group>"; };
+		CC47A1CB1C5B232900509DC8 /* BNRCondimentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRCondimentTableViewController.h; sourceTree = "<group>"; };
+		CC47A1CC1C5B232900509DC8 /* BNRCondimentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRCondimentTableViewController.m; sourceTree = "<group>"; };
 		CCC717E81C55C5F0008060BB /* BigDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC717EC1C55C5F0008060BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCC717EE1C55C5F0008060BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,10 +93,18 @@
 		CCC717EA1C55C5F0008060BB /* BigDogs */ = {
 			isa = PBXGroup;
 			children = (
+				CC47A1C21C5894EE00509DC8 /* BNRHotDog.h */,
+				CC47A1C31C5894EE00509DC8 /* BNRHotDog.m */,
+				CC47A1C41C5894EE00509DC8 /* BNROrder.h */,
+				CC47A1C51C5894EE00509DC8 /* BNROrder.m */,
+				CC47A1CB1C5B232900509DC8 /* BNRCondimentTableViewController.h */,
+				CC47A1CC1C5B232900509DC8 /* BNRCondimentTableViewController.m */,
 				CCC717EE1C55C5F0008060BB /* AppDelegate.h */,
 				CCC717EF1C55C5F0008060BB /* AppDelegate.m */,
 				CCC717F11C55C5F0008060BB /* ViewController.h */,
 				CCC717F21C55C5F0008060BB /* ViewController.m */,
+				CC47A1C81C5897DF00509DC8 /* BNRAddItemTableViewController.h */,
+				CC47A1C91C5897DF00509DC8 /* BNRAddItemTableViewController.m */,
 				CCC717F41C55C5F0008060BB /* Main.storyboard */,
 				CCC717F71C55C5F0008060BB /* Assets.xcassets */,
 				CCC717F91C55C5F0008060BB /* LaunchScreen.storyboard */,
@@ -160,6 +180,7 @@
 				TargetAttributes = {
 					CCC717E71C55C5F0008060BB = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 73H2GSD6V2;
 					};
 					CCC718001C55C5F0008060BB = {
 						CreatedOnToolsVersion = 7.2;
@@ -211,7 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC47A1C71C5894EE00509DC8 /* BNROrder.m in Sources */,
+				CC47A1CA1C5897DF00509DC8 /* BNRAddItemTableViewController.m in Sources */,
 				CCC717F31C55C5F0008060BB /* ViewController.m in Sources */,
+				CC47A1C61C5894EE00509DC8 /* BNRHotDog.m in Sources */,
+				CC47A1CD1C5B232900509DC8 /* BNRCondimentTableViewController.m in Sources */,
 				CCC717F01C55C5F0008060BB /* AppDelegate.m in Sources */,
 				CCC717ED1C55C5F0008060BB /* main.m in Sources */,
 			);
@@ -339,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BigDogs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dancamp.BigDogs;
@@ -350,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BigDogs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dancamp.BigDogs;
@@ -400,6 +427,7 @@
 				CCC7180C1C55C5F0008060BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC7180D1C55C5F0008060BB /* Build configuration list for PBXNativeTarget "BigDogsTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +436,7 @@
 				CCC7180F1C55C5F0008060BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
